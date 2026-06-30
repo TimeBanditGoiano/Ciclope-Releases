@@ -1,14 +1,16 @@
 {
   "app": "CICLOPE",
-  "version": "1.2",
-  "updated_at": "29/06/2026 20:53",
+  "version": "1.2.1",
+  "updated_at": "30/06/2026 00:42",
   "channel": "stable",
   "minimum_supported_version": "1.2",
-  "installer_file": "CICLOPE_Setup_1.2.exe",
-  "download_url": "https://github.com/gptcontabilunip-cpu/Ciclope-Releases/releases/download/v1.2/CICLOPE_Setup_1.2.exe",
+  "installer_file": "CICLOPE_Setup_1.2.1.exe",
+  "download_url": "https://github.com/gptcontabilunip-cpu/Ciclope-Releases/releases/download/v1.2.1/CICLOPE_Setup_1.2.1.exe",
   "notes": [
-    "Primeira versão com instalador Windows.",
-    "Instalação por usuário em %LOCALAPPDATA%\\Programs\\CICLOPE.",
-    "Estrutura preparada para atualização automática futura."
+    "Botão manual para procurar atualizações na aba Configurações.",
+    "Desinstalador com escolha entre remover tudo ou manter dados locais.",
+    "Instalador detecta instalação existente e pede confirmação para instalar por cima.",
+    "Filtro de tensão aceita posts que mostram 110v e 220v juntos quando a variação desejada também aparece.",
+    "Janela principal abre maximizada por padrão."
   ]
 }
